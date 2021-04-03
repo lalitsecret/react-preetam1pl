@@ -23,7 +23,7 @@ class SiderDemo extends React.Component {
 
   render() {
     return (
-      <Layout>
+      <Layout className="main">
         <Sider trigger={null} collapsible collapsed={this.state.collapsed}>
           <div className="logo" />
           <Menu theme="dark" mode="inline" defaultSelectedKeys={['1']}>
